@@ -10,6 +10,8 @@
 - 关闭双频合一，其余设备尽量使用5g，而非2.4gwifi，可以极大优化psv网络连接的效率。
 - Moonlight-Vita by Lizi（梨子制作打包）。
 
+> **作者与来源**：本项目是 [xyzz/vita-moonlight](https://github.com/xyzz/vita-moonlight)（原作者 [xyzz](https://github.com/xyzz)）的衍生版本，其上游为 [Moonlight Embedded](https://github.com/moonlight-stream/moonlight-embedded)（Iwan Timmer 等作者）。本衍生版由 **Lizi（梨子）** 制作，主要贡献为简体中文界面与串流性能修复。
+
 ---
 
 ## 本 fork 的修改项
@@ -46,12 +48,6 @@ export PATH=$VITASDK/bin:$PATH
 
 # 第三方库（moonlight-common-c / enet / inih / mdnsniff）已随源码提交，
 # 无需 git submodule 初始化。直接 clone 本仓库即可获得完整可构建源码。
-
-# 生成中文字体子集（需要 fontTools 与思源黑体源文件）
-pip install fonttools
-# 思源黑体（Noto Sans CJK SC Regular）可从此下载：
-#   https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf
-python3 gen_cjk_font.py . --source-font /path/to/NotoSansCJKsc-Regular.otf
 
 # 构建
 cmake -S . -B build \

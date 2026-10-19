@@ -1,16 +1,16 @@
-# Vita Moonlight（中文增强 + 性能修复版）
+# Vita Moonlight（中文汉化 + 性能修改）
 
 这是 [xyzz/vita-moonlight](https://github.com/xyzz/vita-moonlight) 的一个 fork，在原有功能基础上，
 - 针对 PlayStation Vita 的串流体验做了部分修改：**偶有画面卡死、增加了几处可配置项**、**优化延迟、降低了接收缓冲**、**内置简体中文界面**。
-- 可能导致弱网下画质降低，可开启纠错模式，网络信号较好时码率最高15依然流畅。
-- 其他说明：
-- wifi网络模式建议：11n 模式
-- 无线信道：信道选择 1 / 6 / 11
-- 无线频宽，设备较多时选择：20
-- 关闭双频合一，其余设备尽量使用5g，而非2.4gwifi，可以极大优化psv网络连接的效率。
-- Moonlight-Vita by Lizi（梨子制作打包）。
+- 可能导致弱网下画质降低，可开启纠错模式，网络信号较好时码率最高15.0，仍可流畅运行。
 
-> **作者与来源**：本项目是 [xyzz/vita-moonlight](https://github.com/xyzz/vita-moonlight)（原作者 [xyzz](https://github.com/xyzz)）的衍生版本，其上游为 [Moonlight Embedded](https://github.com/moonlight-stream/moonlight-embedded)（Iwan Timmer 等作者）。本衍生版由 **Lizi（梨子）** 制作，主要贡献为简体中文界面与串流性能修复。
+- 其他说明：
+- 如果路由器wifi卡顿，可以进管理界面，修改网络模式，建议：
+- 11n 模式；无线信道：信道选择 1 / 6 / 11；无线频宽，设备较多时选择：20
+- 关闭双频合一，其余设备尽量使用5g，而非2.4gwifi，可以极大优化psv网络连接的效率。
+
+> **作者与来源**：本项目是xyzz/vita-moonlight（原作者 [xyzz](https://github.com/xyzz)）的衍生版本，其上游为 [Moonlight Embedded](https://github.com/moonlight-stream/moonlight-embedded)（Iwan Timmer 等作者）。
+> 本衍生版由 **Lizi（梨子）** 制作打包，主要贡献为简体中文界面与串流性能修复。
 
 ---
 

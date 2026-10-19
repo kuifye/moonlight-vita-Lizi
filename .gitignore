@@ -1,0 +1,22 @@
+build/*
+.DS_Store
+.cache/*
+compile_commands.json
+venv/*
+mdns_discovery.py
+.vscode/tasks.json
+psp2core_tmp.psp2dmp
+.vscode/settings.json
+
+# sensitive / local-only
+ip_vita.txt
+*.bak-*
+# dev artifacts
+test_*.c
+test_*
+*.patch
+*-build.log
+*.otf
+
+# keep upstream test files inside third_party
+!third_party/**/test_*
